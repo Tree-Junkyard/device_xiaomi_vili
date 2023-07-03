@@ -1,16 +1,15 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8350-common",
+    "repository": "device_xiaomi_sm8350-common",
     "target_path": "device/xiaomi/sm8350-common"
-  }
-
+  },
   {
-    "repository": "android_hardware_xiaomi"
+    "repository": "hardware_xiaomi"
     "target_path": "hardware/xiaomi"
-  }
+  },
   {
-    "repository": "jmportos/android_vendor_xiaomi"
-    "target_path": "vendor/xiaomi"
-    "remote": "gitlab"
+    "repository": "vendor_xiaomi_vili-miuicamera",
+    "target_path": "vendor/xiaomi/vili-miuicamera",
+    "remote": "gitlab",
   }
 ]

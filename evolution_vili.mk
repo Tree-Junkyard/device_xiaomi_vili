@@ -17,9 +17,6 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1440
 
-# MIUI stuff
-TARGET_SHIPS_GALLERY=true
-
 # Rom additions
 TARGET_SUPPORTS_QUICK_TAP := true
 

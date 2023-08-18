@@ -1,0 +1,6 @@
+device/xiaomi
+vendor/xiaomi
+kernel/xiaomi
+hardware/xiaomi
+hardware/custom/compat
+hardware/lineage/compat

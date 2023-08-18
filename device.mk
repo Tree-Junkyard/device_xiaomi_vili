@@ -17,7 +17,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/vili-miuicamera/products/miuicam
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-evolution
+    $(LOCAL_PATH)/overlay-aosp
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
 # RRO Overlays
 PRODUCT_PACKAGES += \
     ViliWifiOverlay
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
 
 # Sensors
 PRODUCT_PACKAGES += \
